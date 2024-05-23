@@ -1,0 +1,93 @@
+body{
+    margin: 0;
+    padding: 0;  
+    justify-content: center;
+    align-items: center;
+}
+
+.BG {
+    background: url(bg1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    width: 100%;
+    height: 590px;
+    background-attachment: fixed;
+}
+
+.Title{
+    font-size: 30;
+    text-align: center;
+    align-items: center;
+    display: relative;
+    position: relative;
+    font-family: Arial;
+    padding-top: 70px;
+    font-family: LogoFont;
+    color: white;
+    font-size: 40px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+    -webkit-text-stroke-width: 2px;
+    animation: SlideU .5s ease-in;
+    
+}
+.AboutUs {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    padding-top: 60px;
+    animation: SlideR .5s ease-in;
+}
+
+.Information{
+    font-size: 13;
+    position: relative;
+    display: flex;
+    align-items: center;
+    font-family: monospace;
+}
+.contact-section h2 {
+    font-size: 3em; /* Larger font size */
+    margin-bottom: 30px; /* Increased margin */
+}
+
+.contact-details {
+    font-size: 2em; /* Larger font size */
+    text-align: center;
+    margin-bottom: 30px; /* Increased margin */
+    line-height: 1.5; /* Increased line height for better readability */
+}
+
+.location-icon {
+    width: 30px; /* Decreased icon size */
+    height: auto;
+    vertical-align: middle;
+    margin-right: 16px; /* Increased margin */
+}
+
+.address {
+    display: flex;
+    align-items: center; /* Align items vertically */
+    justify-content: center;
+    margin-bottom: 30px; /* Increased margin */
+}
+
+.phone-icon {
+    width: 30px; /* Decreased icon size */
+    height: auto;
+    vertical-align: middle;
+    margin-right: 9px; /* Increased margin */
+}
+
+.email-icon {
+    width: 25px; /* Decreased icon size */
+    height: auto;
+    vertical-align: middle;
+    margin-right: 10px; /* Adjusted margin */
+}
+
+/* Remove underline from links */
+.contact-details a {
+    text-decoration: none;
+    color: black; /* Set link color to black */
+}

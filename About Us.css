@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    padding: 0;  
+    justify-content: center;
+    align-items: center;
+}
+
+.BG {
+    background: url(bg1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    width: 100%;
+    height: 590px;
+    background-attachment: fixed;
+}
+
+.Title{
+    font-size: 30;
+    text-align: center;
+    align-items: center;
+    display: relative;
+    position: relative;
+    font-family: Arial;
+    padding-top: 70px;
+    font-family: LogoFont;
+    color: white;
+    font-size: 40px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+    -webkit-text-stroke-width: 2px;
+    animation: SlideU .5s ease-in;
+    
+}
+.AboutUs {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    padding-top: 60px;
+    animation: SlideR .5s ease-in;
+}
+
+.Information{
+    font-size: 13;
+    position: relative;
+    display: flex;
+    align-items: center;
+    font-family: monospace;
+}

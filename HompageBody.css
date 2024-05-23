@@ -1,0 +1,298 @@
+* {
+    margin: 0;
+    padding: 0;  
+}
+
+/* Body Deco */
+body {
+    justify-content: center;
+    
+}
+.MainPic {
+    background-blend-mode: color;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    height: 450px;
+    overflow: hidden;
+}
+
+.Text {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    display: flex;  
+}
+
+.Text1 {
+    color: white; 
+    margin-top: 150px;
+    font-family: sans-serif;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+    -webkit-text-stroke-width: 1px;
+}
+
+.Text1{
+    font-size: 4rem;
+    font-weight: 900;
+}
+
+.Text1 > span {
+    animation: glow 2.5s ease-in-out alternate-reverse;
+}
+
+@keyframes glow {
+    0%, 100%{
+        color: #fff;
+        text-shadow: 0 0 12px #658c96, 0 0 50px #658c96, 0 0 100px #658c96 ;
+    }
+    10%, 90%{
+        color: #111;
+        text-shadow: none;
+    }
+}
+
+.Text1 > span:nth-child(2){
+    animation-delay: .2s;
+}
+.Text1 > span:nth-child(3){
+    animation-delay: .4s;
+}
+.Text1 > span:nth-child(4){
+    animation-delay: .6s;
+}
+.Text1 > span:nth-child(5){
+    animation-delay: .8s;
+}
+.Text1 > span:nth-child(6){
+    animation-delay: 1s;
+}
+.Text1 > span:nth-child(7){
+    animation-delay: 1.2s;
+}
+.Text1 > span:nth-child(8){
+    animation-delay: 1.4s;
+}
+.Text1 > span:nth-child(9){
+    animation-delay: 1.6s;
+}
+.Text1 > span:nth-child(10){
+    animation-delay: 1.8s;
+}
+.Text1 > span:nth-child(11){
+    animation-delay: 2s;
+}
+.Text1 > span:nth-child(12){
+    animation-delay: 2.2s;
+}
+.Text1 > span:nth-child(13){
+    animation-delay: 2.4s;
+}
+.Text1 > span:nth-child(14){
+    animation-delay: 2.6s;
+}
+.Text1 > span:nth-child(15){
+    animation-delay: 2.8s;
+}
+.Text1 > span:nth-child(16){
+    animation-delay: 3s;
+}
+.Text1 > span:nth-child(17){
+    animation-delay: 3.2s;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.content{
+    text-align: center;
+}
+
+.content h1{
+    font-size: 95px;
+    color: #fff;
+    margin-bottom: 50px;
+}
+
+.content a{
+    font-size: 23px;
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid #fff;
+    padding: 15px 25px;
+    border-radius: 50px;
+    transition: 0.3s;
+}
+
+.content a:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+.background-clip{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+@media (min-aspect-ratio:19/10) {
+    .background-clip{
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-aspect-ratio:19/10) {
+    .background-clip{
+        width: auto;
+        height: 100%;
+    }
+}
+.Prods {
+    background: rgba(0, 0, 0, .2)url(bg1.png);
+    background-repeat: no-repeat;
+    background-size: 150%;
+    background-attachment: fixed;
+    height: auto;
+}
+
+.FP {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    font-family: LogoFont;
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+    -webkit-text-stroke-width: .5px;
+}
+
+.Names {
+    display: flex;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    letter-spacing: 2px;
+    color: rgb(8, 8, 8);
+    justify-content: center;
+}
+
+.IName1 {
+    margin-left: 90px;
+    margin-bottom: 10px;
+    margin-right: 300px;
+}
+
+.IName2 {
+    margin-bottom: 10px;
+}
+
+.IName3 {
+    margin-left: 240px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.Products {
+    display: flex;
+    justify-content: center;
+    margin-left: 80px;
+}
+
+.Item {
+    position: relative;
+    width: 320px;
+    height: 300px;
+    transition: transform .5s;
+    margin-right: 80px;
+}
+
+.Item:hover {
+    transform: scale(1.02);
+}
+
+.MainI a {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background: rgba(0, 0, 0, .3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid black;
+    border-radius: 10px;
+    opacity: 0;
+    text-decoration: none;
+    transition: .5s;
+}
+
+.MainI a:hover {
+    opacity: 1;
+}
+
+.MainI h3{
+    background-color: white;
+    color:black;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Pic1 {
+    background: url("13.png");
+    background-size: 150%;	
+    background-position: 50% 10%;
+    width: 320px;
+    height: 300px;
+    display: block;
+    border: 3px solid black;
+    border-radius: 10px;
+    margin: auto;
+}
+.Pic1:hover {
+    transform: scale(1.1)
+}
+
+.Pic2 {
+    background: url("14.png");
+    background-size: 150%;	
+    background-position: 50% 30%;
+    width: 320px;
+    height: 300px;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+.Pic2:hover {
+    transform: scale(1.1)
+}
+
+.Pic3 {
+    background: url("15.png");
+    background-size: 150%;	
+    background-position: 50% 10%;
+    width: 320px;
+    height: 300px;
+    display: block;
+    border: 3px solid black;
+    border-radius: 10px;
+    margin: auto;
+}
+.Pic3:hover {
+    transform: scale(1.1)
+}
+
+
+/* Edo of Body Deco */

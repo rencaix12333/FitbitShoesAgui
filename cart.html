@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+    <style>
+        * {
+    margin: 0;
+    padding: 0;  
+}
+
+/* Logo Link */
+
+.Header {
+    background-color: black;
+}
+.Logo {
+    display: flex;
+}
+    
+.LogoImg {
+    width: 78.75px;
+    height: 58.6875px;
+    position: absolute;
+    top: 10px;
+    left: 50px;
+    font-family: LogoFont;
+    animation: SlideR .5s ease-in;
+}
+
+.LogoText {
+    position: absolute;
+    top: 20px;
+    left: 130px;
+    font-family: LogoFont;
+    animation: SlideR .5s ease-in;
+    color: white;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.LogoText:hover {
+    color: black;
+    -webkit-text-stroke-color: rgba(255, 255, 255, 0.7);
+    -webkit-text-stroke-width: .5px;
+}
+
+/* end of Logo Link */
+
+/* Cart Logo */
+.Cart {
+    position: absolute;
+    align-items: right;
+    width: 40px;
+    height: 40px;
+    top: 20px;
+    right: 60px;
+    animation: SlideU .5s ease-in;
+}
+/* End of Cart Logo */
+
+
+/* Buttons */
+.navigation {
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+    font-family: Arial, Helvetica, sans-serif;
+    size: 32px;
+    margin-top: 3px;
+    margin-left: 500px;
+    animation: SlideU .5s ease-in;
+}
+
+.navigation ul {
+    list-style: none;
+}
+
+.navigation li {
+    display: inline;
+    margin: 0px 20px;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.navigation a:hover {
+    background-color: rgba(255, 255, 255, 0.7);
+    color: black;
+}
+/* End of Buttons */
+    </style>
+    <link rel="stylesheet" href="HompageBody.css">
+    <link rel="stylesheet" href="HomepageFooter.css">
+    <link rel="stylesheet" href="Shop.css">
+    <script src="cart.js"></script>
+    <head> <!-- The Header of the Homepage -->
+        <div class = "Header">
+            <div class = "Logo"> 
+                <a href = "index.html"><img class = "LogoImg" src = "LOGO.png"></a>
+                <a class = "LogoText" href = "index.html"><h1> FitBitShoes </h1></a>
+    
+                <nav class="navigation">
+                     <ul>
+                         <li><a href = "index.html"> Home </a></li> 
+                         <li><a href = "Shop.html"> Shop </a></li>
+                         <li><a href = "About Us.html"> About Us </a></li>
+                         <li><a href = "ContactUs.html"> Contact Us </a></li>
+                    </ul>
+                </nav>
+    </div>
+    </div>
+    </head>
+    <a href = "cart.html"><img class = "Cart" src = "Cart.png"></a>
+            </div>
+            <div class="small-container cart-page">
+                <table id="cart-table">
+                    <tr>
+                        <th>Product</th>    
+                        <th>Image</th>
+                        <th>Quantity</th>
+                        <th>Subtotal</th>
+                        <th>Action</th>
+                    </tr>
+                </table>
+                
+                <div class="total-price">
+                    <table>
+                        <tr>
+                            <td>Subtotal</td>
+                            <td id="cart-subtotal">$ 00.00</td>
+                        </tr>
+                        <tr>
+                            <td>Tax</td>
+                            <td id="cart-tax">$ 00.00</td>
+                       </tr>
+                        <tr>
+                            <td>Total</td>
+                            <td id="cart-total">$ 00.00</td>
+                        </tr>
+                        
+                    </table>
+                    <br>
+                    
+                </div>
+                <div class="checkout-container">
+                    <a href="Checkout.html" class="checkout-btn">Check Out</a>
+                </div>
+            </div>
+    
+            <!-- Cart -->
+        
+                        <!-- Receipt items will be dynamically added here -->
+                    </ul>               
+                </div>
+            </div>
+        </div>
+        <footer>
+            <section class = "footer">
+                    <div class = "PNP">
+                        <h2> PURCHASE & POLICIES </h2>
+                        <div class = "Links">
+                            <a href = ""> FAQ </a><br>
+                            <a href = ""> Store Policies </a><br>
+                            <a href = ""> Payment Methods </a>
+                        </div>
+                    </div>
+    
+                
+                    <div class = "FollowUs"> 
+                        <h2> FOLLOW US </h2>
+                        <div class = "Links">
+                            <a href = "https://www.tiktok.com/@rencaix?lang=en" target = "_blank"> TikTok </a><br>
+                            <a href = "https://www.instagram.com/iugaren/?hl=en" target = "_blank"> Instagram </a>
+                        </div>
+                    </div>
+    
+                    <div class = "Contacts"> 
+                        <h2> CONTACTS </h2>
+                        <div class = "Info1">
+                            <p> (+63) 92028948023</p>
+                            <p> FitbitShoes@gmail.com </p>
+                        </div>
+                    </div>
+            </section>
+    
+            <div class = "CC">
+                <h6 class = "at"><center>©2024 FitBitShoes </center></h6>
+            </div>
+    
+        </footer>
+    
+    </html>

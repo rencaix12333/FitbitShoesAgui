@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+    <style>
+        * {
+    margin: 0;
+    padding: 0;  
+}
+
+/* Logo Link */
+
+.Header {
+    background-color: black;
+}
+.Logo {
+    display: flex;
+}
+    
+.LogoImg {
+    width: 78.75px;
+    height: 58.6875px;
+    position: absolute;
+    top: 10px;
+    left: 50px;
+    font-family: LogoFont;
+    animation: SlideR .5s ease-in;
+}
+
+.LogoText {
+    position: absolute;
+    top: 20px;
+    left: 130px;
+    font-family: LogoFont;
+    animation: SlideR .5s ease-in;
+    color: white;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.LogoText:hover {
+    color: black;
+    -webkit-text-stroke-color: rgba(255, 255, 255, 0.7);
+    -webkit-text-stroke-width: .5px;
+}
+
+/* end of Logo Link */
+
+/* Cart Logo */
+.Cart {
+    position: absolute;
+    align-items: right;
+    width: 40px;
+    height: 40px;
+    top: 20px;
+    right: 60px;
+    animation: SlideU .5s ease-in;
+}
+/* End of Cart Logo */
+
+
+/* Buttons */
+.navigation {
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+    font-family: Arial, Helvetica, sans-serif;
+    size: 32px;
+    margin-top: 3px;
+    margin-left: 500px;
+    animation: SlideU .5s ease-in;
+}
+
+.navigation ul {
+    list-style: none;
+}
+
+.navigation li {
+    display: inline;
+    margin: 0px 20px;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.navigation a:hover {
+    background-color: rgba(255, 255, 255, 0.7);
+    color: black;
+}
+</style>
+    <link rel="stylesheet" href="HomepageFooter.css">
+    <link rel="stylesheet" href="About Us.css">
+    <head>
+        <div class = "Header">
+            <div class = "Logo"> 
+                <a href = "index.html"><img class = "LogoImg" src = "LOGO.png"></a>
+
+                 <a class = "LogoText" href = "index.html"><h1> FitBitShoes </h1></a>
+
+                <nav class="navigation">
+                     <ul>
+                         <li><a href = "index.html"> Home </a></li>
+                         <li><a href = "Shop.html"> Shop </a></li>
+                         <li><a href = "About Us.html"> About Us </a></li>
+                         <li><a href = "ContactUs.html"> Contact Us </a></li>
+                    </ul>
+                </nav>
+
+                <a href = "cart.html"><img class = "Cart" src = "Cart.png"></a>
+            </div>
+        </div>
+    </head>
+
+    <body>
+        <div class = "BG">
+            <p class = "Title">
+                <br>
+                ABOUT US
+                <br>
+            </p>
+        
+            <section class = "AboutUs">
+                <h1 class = "Information">
+                    <br> 
+                    From the past, for the future of fashion.<br>
+                    <br>
+                    Welcome to FITBIT SHOES your destination for exquisite formal high heel shoes that elevate your .
+                            style with every step. We are dedicated to providing women
+                        with sophisticated footwear that seamlessly combines elegance and comfort. <br>
+                    <br>
+                    To stay up to date with the latest drops and news, follow us on Instagram and Tiktok @FitBitShoes
+                </h1>
+            </section>
+        </div>
+    </body>
+
+    <footer>
+        <section class = "footer">
+                <div class = "PNP">
+                    <h2> PURCHASE & POLICIES </h2>
+                    <div class = "Links">
+                        <a href = ""> FAQ </a><br>
+                        <a href = ""> Store Policies </a><br>
+                        <a href = ""> Payment Methods </a>
+                    </div>
+                </div>
+
+            
+                <div class = "FollowUs"> 
+                    <h2> FOLLOW US </h2>
+                    <div class = "Links">
+                        <a href = "https://www.tiktok.com/@hunter.mnla?refer=creator_embed" target = "_blank"> TikTok </a><br>
+                        <a href = "https://www.instagram.com/hunter.mnla/?utm_source=ig_web_button_share_sheet&igshid=OGQ5ZDc2ODk2ZA==" target = "_blank"> Instagram </a>
+                    </div>
+                </div>
+
+                <div class = "Contacts"> 
+                    <h2> CONTACTS </h2>
+                    <div class = "Info1">
+                        <p> (+63) 92028948023</p>
+                        <p> FitbitShoes@gmail.com </p>
+                    </div>
+                </div>
+        </section>
+
+        <div class = "CC">
+            <h6 class = "at"><center>©2024 FitBitShoes </center></h6>
+        </div>
+
+    </footer>
+
+</html>
